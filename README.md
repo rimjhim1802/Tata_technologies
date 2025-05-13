@@ -41,10 +41,10 @@ int calculate_bowling_score(const vector<int>& throws) {
 }
 
 int main() {
-    // Example throws for a player (replace with actual input)
+   
     vector<int> throws = {10, 6, 4, 8, 2, 9, 0, 5, 7, 3, 10, 10, 8, 2, 10};
 
-    // Calculate and display the score
+   
     int total_score = calculate_bowling_score(throws);
     cout << "Total score: " << total_score << endl;
 
